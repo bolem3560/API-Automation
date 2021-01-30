@@ -1,0 +1,59 @@
+{
+	"apiDATA": [
+		{
+			"endpointurl": "https://reqres.in/api/users/2",
+			"ContentType": "application/json",
+			"requestType": "GET",
+			"testCase": "GET-Call-SuccessStatusCodeValidation",
+			"statuscode": "200"
+		},
+		{
+			"endpointurl": "https://reqres.in/api/users",
+			"ContentType": "application/json",
+			"requestType": "POST",
+			"testCase": "POST-Call-SuccessStatuscodeValidation",
+			"statuscode": "201"
+		},
+		{
+			"endpointurl": "https://reqres.in/api/users",
+			"ContentType": "application/json",
+			"requestType": "POST",
+			"testCase": "POST-Call-NegativeStatuscodeValidation",
+			"statuscode": "200"
+		}
+	],
+	"schemavalidations": [
+		{
+			"endpointurl": "https://reqres.in/api/users/2",
+			"ContentType": "application/json",
+			"requestType": "GET",
+			"testCase": "GET-Call-SchemaValidation",
+			"statuscode": "200"
+		},
+		{
+			"endpointurl": "https://reqres.in/api/users",
+			"ContentType": "application/json",
+			"requestType": "POST",
+			"testCase": "POST-Call-SchemaValidation",
+			"statuscode": "201"
+		}
+	],
+	"responsevalidations": [
+		{
+			"endpointurl": "https://reqres.in/api/users/2",
+			"ContentType": "application/json",
+			"requestType": "GET",
+			"testCase": "GET-Call-SuccessResponseValidation",
+			"statuscode": "200",
+			"first_name":"Janet",
+			"last_name":"Weaver"
+		},
+		{
+			"endpointurl": "https://reqres.in/api/users",
+			"ContentType": "application/json",
+			"requestType": "POST",
+			"testCase": "POST-Call-SuccessResponseValidation",
+			"statuscode": "201"
+		}
+	]
+}

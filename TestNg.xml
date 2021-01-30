@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+ 
+<test name="Sampletest" >
+    <classes>
+      <class name="codilityTestcases.TestSuite1_StatuscodeValidations"></class>
+      <class name="codilityTestcases.TestSuite2_SchemaValidations"></class>
+      <class name="codilityTestcases.TestSuite3_ResponseValidations"></class>
+     </classes>
+ </test>
+ 
+   
+ 
+</suite>
